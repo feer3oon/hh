@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28386628"))
-API_HASH = getenv("API_HASH", "32a678ce66443764aab2ad5cb2f5da74")
-OWNER_NAME = getenv("OWNER_NAME", "gjqkp")
-OWNER_NyyyAME = getenv("OWNER_NyyyAME", "5900479364")
-BOT_USERNAME = getenv("BOT_USERNAME", "ms1tbot")
-ASSISTANT_NAME = getenv("ASSISTANT_USERNAME", "yp_hp")
-BOT_TOKEN = getenv("BOT_TOKEN", "5915163334:AAE6H8oyB_MJ_Uzr4kn3sfyfOPUuteb36ug")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "stsp4")
+API_ID = int(getenv("API_ID", "26058816"))
+API_HASH = getenv("API_HASH", "495a770d78d37f01d00031b4c1a0a6a4")
+OWNER_NAME = getenv("OWNER_NAME", "FEER3OON")
+OWNER_NyyyAME = getenv("OWNER_NyyyAME", "6034835993")
+BOT_USERNAME = getenv("BOT_USERNAME", "FEER3OON_ROBOT")
+ASSISTANT_NAME = getenv("ASSISTANT_USERNAME", "oov9oo")
+BOT_TOKEN = getenv("BOT_TOKEN", "7124991096:AAHBz0q4joSOBwIMNbDioq9KgQkyVC6OIlc")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Feer3oon")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://belamriiyad7:iyad2009@cluster0.gitwp4w.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "500")
@@ -23,27 +23,27 @@ DURATION_LIMIT_MIN = int(
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )  
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001884920954"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Steve BOT")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002100256945"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "FEER3OON")
 BOT_USERNAME = getenv("BOT_USERNAME")
 OWNER = getenv("OWNER")
 NAME_BOT = getenv("NAME_BOT")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5900479364").split())
+    map(int, getenv("OWNER_ID", "6034835993").split())
 )  
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/gjqkp1/hh",
+    "https://github.com/feer3oon/hh",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/stsp4"
+    "SUPPORT_CHANNEL", "https://t.me/FEER3OON"
 )  
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP","https://t.me/vvinl"
+    "SUPPORT_GROUP","https://t.me/SOURCE_FEER3OON"
 ) 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -72,7 +72,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(
 TG_VIDEO_FILESIZE_LIMIT = int(
     getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
 ) 
-STRING1 = getenv("STRING_SESSION", "BACPWpmuBuM420VL5BLMTBik2Povku0HaGs7AEsn7DnC1DsIFE5yzvfBSK_Wi8C6lcSAFPuaODpROVhJlRGWBwF1nbXaa4DEz2Edz6MQxlSzHC2YMW8AMop2Lbh_hx-8iplwndDU3JyHde3__N8fRTQ6ze5obRvacJVfQnyQnrhc3_S5QTA1UIGtFrwMT5O_P2-dcQi4fc7iyzSR8dVPYoGiZ3xmshwGMk8BYdSYHdwHcgY5DMOg0yeyEfg6ZBXnGXnxZ6m68S-ZN18_18pxziwM_cKzzJ_uCC-0Qu1pxbK2uu8wFU9uARhCCc7p8dbtvZ733ej4iCCfFKfKwS-itKt7AAAAAV-sMgEA")
+STRING1 = getenv("STRING_SESSION", "BAGNoEAAYStTkU8cTKUZ_0uDMHfhxUlbwGCoIFQLs6HEhd_wc11Ifx-fKjOk9G19ueLhgAJHbd_khST1NcQoFic2Wu78ECbSZ-Ql8i8VewQ3yWNi-c2Wsa-KSko8xl3-Cu8eHgNZ59DYCoA6Juczco9rxroRcPRTSFE4h8MrgjuY2mJvCIg4NT_qsAJGsWfgx9Lf21BNRm4ytFxFGEL08GwQxbHVQHhXeknMcMTLOZd5TFBdKCRJ-XmLkTPZWN7pRsO6XDPRie7JuupmaG7MmtKK6ZzcMErZ5x8MkGTweH6VblgQaGnQWzvYxkauQbRI9Y25OFuygAXMTxsJnsRu6DuuMSifFgAAAAGTeiN6AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -92,7 +92,7 @@ autoclean = []
 
 
 
-START_IMG_URL = getenv("START_IMG_URL", "")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6fd96f37c3371ecdd2607.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
